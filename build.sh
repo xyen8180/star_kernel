@@ -22,5 +22,5 @@ repo init -u https://android.googlesource.com/kernel/manifest -b common-android1
 repo sync
 ls build
 git clone https://github.com/nebrassy/kernel_xiaomi_sm8350  kernel/xiaomi/sm8350/
-. build/envsetup.sh
+. build/_setup_env.sh
 ls
