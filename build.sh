@@ -22,3 +22,4 @@ repo init -u https://android.googlesource.com/kernel/manifest -b common-android1
 repo sync
 git clone https://github.com/nebrassy/kernel_xiaomi_sm8350 -b android-11-backup kernel/xiaomi/sm8350/
 BUILD_CONFIG=kernel/xiaomi/sm8350/build.config.gki.aarch64 build/build.sh
+
