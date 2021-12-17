@@ -20,7 +20,7 @@ echo " ===+++ Syncing Recovery Sources +++==="
 echo " ===+++ Cloning Manifest  +++==="
 repo init -u https://android.googlesource.com/kernel/manifest -b common-android11-5.4
 repo sync
-ls
+ls build
 git clone https://github.com/nebrassy/kernel_xiaomi_sm8350  kernel/xiaomi/sm8350/
 . build/envsetup.sh
 ls
